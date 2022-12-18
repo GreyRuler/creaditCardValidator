@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.card {
+	width: 73px;
+	height: 47px;
+	background-position-y: 95px;
+}
+
+.visa {
+	background-image: url("../img/content-cards.png");
+	background-position-x: -50px;
+}
+
+.master {
+	background-image: url("../img/content-cards.png");
+	background-position-x: -137px;
+}
+
+.mir {
+	background-image: url("../img/content-cards.png");
+	background-position-x: -225px;
+}
+
+.filter {
+	filter: grayscale(100%);
+}
